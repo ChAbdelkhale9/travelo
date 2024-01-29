@@ -1,7 +1,6 @@
 .Svg__container {
   width: 50%;
   height: 100vh;
-  outline: 1px solid rgb(38, 0, 255);
   position: relative;
 }
 
