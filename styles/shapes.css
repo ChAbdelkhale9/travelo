@@ -1,7 +1,10 @@
 .Svg__container {
   width: 50%;
+  margin-top: 60px;
   height: 100vh;
   position: relative;
+  align-self: center;
+  justify-self: center;
 }
 
 svg {
@@ -12,38 +15,38 @@ svg {
 .one {
   position: absolute;
   left: 454px;
-  top: 280px;
+  top: 210px;
 }
 
 .two {
   position: absolute;
   left: 189px;
-  top: 280px;
+  top: 210px;
 }
 
 .three {
   position: absolute;
   left: 331px;
-  top: 530px;
+  top: 460px;
 }
 
 .four {
   position: absolute;
   left: 454px;
-  top: 156px;
+  top: 86px;
 }
 
 .four {
   position: absolute;
   left: 343px;
-  top: 156px;
+  top: 86px;
   translate: 0% -50%;
 }
 
 .six {
   position: absolute;
   left: 202px;
-  top: 156px;
+  top: 86px;
   transition: all 1s;
   translate: -50% -50%;
 }
@@ -51,34 +54,34 @@ svg {
 .seven {
   position: absolute;
   left: 343px;
-  top: 280px;
+  top: 210px;
   translate: -50% -50%;
 }
 
 .eight {
   position: absolute;
   left: 454px;
-  top: 530px;
+  top: 460px;
   translate: 0% -50%;
 }
 
 .nine {
   position: absolute;
   left: 205px;
-  top: 420px;
+  top: 360px;
 }
 
 .ten {
   position: absolute;
   left: 205px;
-  top: 530px;
+  top: 471px;
   translate: 0% -50%;
 }
 
 .eleven {
   position: absolute;
   left: 343px;
-  top: 408px;
+  top: 338px;
   translate: 0% -50%;
 }
 
@@ -131,7 +134,7 @@ svg {
 }
 
 .two {
-  animation: Top 2s 1s infinite;
+  animation: bottom 2s 1s infinite;
 }
 
 .three {
@@ -308,10 +311,6 @@ svg * {
   /* outline: 1px solid red; */
 }
 
-svg {
-  outline: 1px solid red;
-  overflow: visible;
-}
 
 /* .circle--gray{animation: top 1s 1s  linear alternate infinite;} */
 /* .half--blue{ transform-origin:center;animation: longrotate 1s 1s  linear alternate infinite;} */
