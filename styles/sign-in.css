@@ -132,7 +132,8 @@
 }
 
 .remember {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  align-items: center;
 }
 
 .remember--checkbox {
@@ -173,11 +174,12 @@
 }
 
 .checkmark {
-  opacity: 0.4;
+  opacity: 1;
+  font-weight: bolder;
 }
 
 .checkbox-container input:checked~.checkmark {
-  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #6041e7);
+  background: linear-gradient(144deg, #c72bff, #6F0EE0 60%, #6c0ddf);
   opacity: 0.9;
   transition: all 0.2s ease;
 }
