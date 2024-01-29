@@ -1,0 +1,318 @@
+.Svg__container {
+  width: 50%;
+  height: 100vh;
+  outline: 1px solid rgb(38, 0, 255);
+  position: relative;
+}
+
+svg {
+  transition: all 1s;
+  transform-origin: center;
+}
+
+.one {
+  position: absolute;
+  left: 454px;
+  top: 280px;
+}
+
+.two {
+  position: absolute;
+  left: 189px;
+  top: 280px;
+}
+
+.three {
+  position: absolute;
+  left: 331px;
+  top: 530px;
+}
+
+.four {
+  position: absolute;
+  left: 454px;
+  top: 156px;
+}
+
+.four {
+  position: absolute;
+  left: 343px;
+  top: 156px;
+  translate: 0% -50%;
+}
+
+.six {
+  position: absolute;
+  left: 202px;
+  top: 156px;
+  transition: all 1s;
+  translate: -50% -50%;
+}
+
+.seven {
+  position: absolute;
+  left: 343px;
+  top: 280px;
+  translate: -50% -50%;
+}
+
+.eight {
+  position: absolute;
+  left: 454px;
+  top: 530px;
+  translate: 0% -50%;
+}
+
+.nine {
+  position: absolute;
+  left: 205px;
+  top: 420px;
+}
+
+.ten {
+  position: absolute;
+  left: 205px;
+  top: 530px;
+  translate: 0% -50%;
+}
+
+.eleven {
+  position: absolute;
+  left: 343px;
+  top: 408px;
+  translate: 0% -50%;
+}
+
+
+.left {
+  translate: 49% 50%;
+}
+
+.right {
+  translate: 0% 50%;
+}
+
+.six>path {
+  translate: 50% 50%;
+}
+
+.seven>path {
+  translate: 50% 50%;
+}
+
+.eight>path {
+  translate: 0% 50%;
+}
+
+/* .nine>path{ translate: 0% 50%;} */
+.ten>path {
+  translate: 0% 50%;
+}
+
+.eleven>path {
+  translate: 0% 50%;
+}
+
+
+
+/* .Svg__container:hover .one{translate:0 -100%;transform-origin: center ; }
+.Svg__container:hover .two{translate:0 100%;transform-origin: center ; }
+.Svg__container:hover .three{translate:100% 0%;transform-origin: center ; } */
+/* .Svg__container:hover .four{rotate: -180deg;transform-origin: center ; } */
+/* .Svg__container:hover .six{ rotate: -90deg;transform-origin: center; } */
+/* .Svg__container:hover .seven{ rotate: -90deg;transform-origin: center; } */
+/* .Svg__container:hover .eight{ rotate: -180deg;transform-origin: center; } */
+/* .Svg__container:hover .nine{ rotate: -90deg;transform-origin: center; } */
+/* .Svg__container:hover .ten{ rotate: -180deg;transform-origin: center; } */
+/* .Svg__container:hover .eleven{ rotate: -180deg;transform-origin: center; } */
+
+
+.one {
+  animation: Top 2s 1s infinite;
+}
+
+.two {
+  animation: Top 2s 1s infinite;
+}
+
+.three {
+  animation: right 2s 1s infinite;
+}
+
+.four,
+.eight,
+.ten,
+.eleven {
+  animation: longrotate 2s 1s infinite;
+}
+
+.six,
+.seven,
+.nine {
+  animation: shortrotate 2s 1s infinite;
+}
+
+@keyframes longrotate {
+  0% {
+    rotate: 0deg
+  }
+
+  40% {
+    rotate: -0deg
+  }
+
+  50% {
+    rotate: -200deg
+  }
+
+  55% {
+    rotate: -160deg
+  }
+
+  60% {
+    rotate: -180deg
+  }
+
+  80% {
+    rotate: -180deg
+  }
+
+  100% {
+    rotate: -0deg
+  }
+
+}
+
+@keyframes shortrotate {
+  0% {
+    rotate: 0deg
+  }
+
+  40% {
+    rotate: -0deg
+  }
+
+  50% {
+    rotate: -100deg
+  }
+
+  55% {
+    rotate: -80deg
+  }
+
+  60% {
+    rotate: -90deg
+  }
+
+  80% {
+    rotate: -90deg
+  }
+
+  100% {
+    rotate: -0deg
+  }
+
+}
+
+@keyframes Top {
+  0% {
+    translate: 0 0%
+  }
+
+  40% {
+    translate: 0 0%
+  }
+
+  50% {
+    translate: 0 -110%
+  }
+
+  60% {
+    translate: 0 -98%
+  }
+
+  55% {
+    translate: 0 -100%
+  }
+
+  80% {
+    translate: 0 -100%
+  }
+
+  100% {
+    translate: 0 0%
+  }
+}
+
+@keyframes bottom {
+  0% {
+    translate: 0 0%
+  }
+
+  40% {
+    translate: 0 0%
+  }
+
+  50% {
+    translate: 0 110%
+  }
+
+  55% {
+    translate: 0 98%
+  }
+
+  60% {
+    translate: 0 100%
+  }
+
+  80% {
+    translate: 0 100%
+  }
+
+  100% {
+    translate: 0 0%
+  }
+}
+
+@keyframes right {
+  0% {
+    translate: 0 0%
+  }
+
+  40% {
+    translate: 0 0%
+  }
+
+  50% {
+    translate: 110% 0
+  }
+
+  55% {
+    translate: 98% 0
+  }
+
+  60% {
+    translate: 100% 0
+  }
+
+  80% {
+    translate: 100% 0
+  }
+
+  100% {
+    translate: 0 0%
+  }
+}
+
+
+svg * {
+  /* outline: 1px solid red; */
+}
+
+svg {
+  outline: 1px solid red;
+  overflow: visible;
+}
+
+/* .circle--gray{animation: top 1s 1s  linear alternate infinite;} */
+/* .half--blue{ transform-origin:center;animation: longrotate 1s 1s  linear alternate infinite;} */
