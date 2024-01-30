@@ -3,7 +3,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 20px;
+  justify-content: start;
   background-color: var(--gray-Color);
 
 }
