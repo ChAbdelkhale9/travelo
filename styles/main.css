@@ -37,10 +37,10 @@ body {
     display: flex;
     align-items: start;
     height: 100vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #rootReactVNB {
     display: none;
+    visibility: hidden;
 }
