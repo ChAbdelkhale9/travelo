@@ -1,7 +1,6 @@
 .Svg__container {
   margin-top: 60px;
-  margin-right: 180px;
-  flex: 1;
+  flex: 3;
   height: 100vh;
   position: relative;
   align-self: center;
