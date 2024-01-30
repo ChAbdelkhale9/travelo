@@ -1,88 +1,114 @@
-.Svg__container {
-  margin-top: 60px;
+.right-side {
   flex: 3;
   height: 100vh;
-  position: relative;
-  align-self: center;
-  justify-self: center;
+  justify-items: center;
+  align-content: center;
 }
 
-svg {
+.animation__container {
+  position: relative;
+}
+
+
+
+
+.testing>* {
   transition: all 1s;
   transform-origin: center;
+  display: inline-block;
+}
+
+
+.four .right {
+  position: absolute;
+  left: 0;
+  top: -50px;
+}
+
+.four .left {
+  position: absolute;
+  right: 49px;
+  top: -50px;
 }
 
 .one {
   position: absolute;
   left: 454px;
-  top: 210px;
+  top: 230px;
 }
 
 .two {
   position: absolute;
-  left: 189px;
-  top: 210px;
+  left: 210px;
+  top: 233px;
 }
 
 .three {
   position: absolute;
   left: 331px;
-  top: 460px;
+  top: 480px;
 }
+
+
 
 .four {
   position: absolute;
-  left: 454px;
-  top: 86px;
-}
-
-.four {
-  position: absolute;
-  left: 343px;
-  top: 86px;
+  left: 450px;
+  top: 110px;
   translate: 0% -50%;
+
 }
 
 .six {
   position: absolute;
-  left: 202px;
-  top: 86px;
+  left: 266px;
+  top: 163px;
+  transform-origin: left top;
   transition: all 1s;
   translate: -50% -50%;
+
 }
 
 .seven {
   position: absolute;
-  left: 343px;
-  top: 210px;
+  transform-origin: left top;
+  left: 400px;
+  top: 283px;
   translate: -50% -50%;
 }
 
 .eight {
   position: absolute;
   left: 454px;
-  top: 460px;
+  top: 533px;
   translate: 0% -50%;
+  transform-origin: top right;
 }
 
 .nine {
   position: absolute;
-  left: 205px;
-  top: 360px;
+  left: 216px;
+  top: 383px;
+  transform-origin: bottom right;
 }
+
+
 
 .ten {
   position: absolute;
-  left: 205px;
-  top: 471px;
+  left: 216px;
+  top: 533px;
   translate: 0% -50%;
+  transform-origin: top right;
+
 }
 
 .eleven {
   position: absolute;
-  left: 343px;
-  top: 338px;
+  left: 349px;
+  top: 408px;
   translate: 0% -50%;
+  transform-origin: top center;
 }
 
 
@@ -92,10 +118,6 @@ svg {
 
 .right {
   translate: 0% 50%;
-}
-
-.six>path {
-  translate: 50% 50%;
 }
 
 .seven>path {
@@ -137,9 +159,11 @@ svg {
   animation: bottom 2s 1s infinite;
 }
 
+
 .three {
   animation: right 2s 1s infinite;
 }
+
 
 .four,
 .eight,
@@ -147,6 +171,7 @@ svg {
 .eleven {
   animation: longrotate 2s 1s infinite;
 }
+
 
 .six,
 .seven,
@@ -307,10 +332,55 @@ svg {
 }
 
 
-svg * {
-  /* outline: 1px solid red; */
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
+.half-big-circle {
+  width: 200px;
+  height: 100px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.grey {
+  background-color: #393939;
+}
+
+.blue {
+  background-color: #95D0D5
+}
+
+.perpule {
+  background-color: #71357C;
+}
+
+.orange {
+  background-color: #FD7E50
+}
+
+.red {
+  background-color: #F35D5D;
+  ;
+}
+
+.quater_buttom_left {
+  border-radius: 0;
+  border-bottom-left-radius: 100px;
+}
+
+.quater_top_left {
+  border-radius: 0;
+  border-top-left-radius: 100px;
+}
+
+.quater_buttom_right {
+  border-radius: 0;
+  border-bottom-right-radius: 100px;
+}
 
 /* .circle--gray{animation: top 1s 1s  linear alternate infinite;} */
 /* .half--blue{ transform-origin:center;animation: longrotate 1s 1s  linear alternate infinite;} */
