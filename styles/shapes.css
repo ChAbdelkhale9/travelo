@@ -1,15 +1,19 @@
 .right-side {
   flex: 3;
+  display: grid;
   height: 100vh;
-  justify-items: center;
-  align-content: center;
 }
 
-.animation__container {
+.animation {
   position: relative;
 }
 
-
+.container {
+  align-self: center;
+  justify-self: center;
+  height: 600px;
+  width: 743px;
+}
 
 .four .right {
   position: absolute;
