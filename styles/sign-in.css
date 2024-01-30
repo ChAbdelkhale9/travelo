@@ -9,6 +9,9 @@
 }
 
 
+button {
+  cursor: pointer;
+}
 
 .signIn_card--container {
   display: flex;
